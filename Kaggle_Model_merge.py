@@ -1,7 +1,7 @@
 //val items = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/items.csv")
 val stores = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/stores.csv")
 val txn = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/transactions.csv")
-val oil = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/oil.csv")
+//val oil = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/oil.csv")
 val hl_en = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/holidays_events.csv.csv")
 val train = spark.read.option("header","True").option("inferSchema","True").csv("/tm/kaggle/data/train.csv")
 
